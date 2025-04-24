@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+        <!--flaticon.css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+
+        <link rel="stylesheet" href="styles-contacts us.css">
+      
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+        
+   
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Food Bridge</div>
+            <div class="nav-links">
+                <div class="nav-links">
+                    <a href="index-1.html" class="nav-link">Home</a>
+                    <a href="Signinfood-bridges.html" class="nav-link">LOGIN</a>
+                    <a href="Aboutus food-bridges.html" class="nav-link">About</a>
+                    <a href="services.html" class="nav-link"> Our Services</a>
+                    <a href="Contacts us food-bridges.html" class="nav-link">Contacts</a>
+                </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Tabs -->
+            <div class="tabs">
+                <div class="tabs-list">
+                    <button class="tab-trigger " data-tab="donor">Donor Contact</button>
+                    <button class="tab-trigger active" data-tab="recipient">Recipient Access</button>
+                    <button class="tab-trigger" data-tab="G-Commun">General Communication</button>
+                </div>
+
+                <!-- Donor Tab -->
+                <div class="tab-content active" id="donor">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Contact Donor</h2>
+                        </div>
+                        <div class="card-content">
+                            <form class="form">
+                                <input type="text" placeholder="Name" class="input">
+                                <input type="email" placeholder="Email" class="input">
+                                <label>Reason for contact</label>
+                                <textarea id="reason-Dcontact" name="reason-Dcontact" rows="2" cols="25" maxlength="50"></textarea>
+                                <button type="submit" class="button">
+                                    Send Message
+                                    <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                        <path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                  <!--  General Communication Tab -->
+                  <div class="tab-content active" id="G-Commun">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>General Communication</h2>
+                        </div>
+                        <div class="card-content">
+                            <form class="form">
+                                <input type="text" placeholder="Name" class="input">
+                                <input type="email" placeholder="Email" class="input">
+                                <label for="message">Message</label>
+                                <textarea id="measssage-1" name="message-1" rows="4" cols="50" maxlength="120"></textarea>
+                                <button type="submit" class="button">
+                                    Send Message
+                                    <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                        <path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Recipient Tab -->
+                <div class="tab-content active" id="recipient">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Get Access to Recipient</h2>
+                        </div>
+                        <div class="card-content">
+                            <form class="form">
+                                <label>Organisation of Interested</label>
+                                <input type="text" placeholder="Organization Name" class="input">
+                                <label>Known Personal</label>
+                                <input type="text" placeholder="Contact Person" class="input">
+                                <label>Interested Party's email</label>
+                                <input type="email" placeholder="Email" class="input">
+                                <label>Reason for contact</label>
+                                <textarea id="reason-Rcontact" name="reason-Rcontact" rows="2" cols="25" maxlength="50"></textarea>
+                                <button type="submit" class="button">
+                                    Request Access
+                                    <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                        <path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Program Contact -->
+            <div class="card program-contact">
+                <div class="card-header">
+                    <h2>Program Contact Us</h2>
+                </div>
+                <div class="card-content">
+                    <p>Pick where you can donate fully</p>
+                    <div class="button-group">
+                        <button class="button button-outline">
+                            <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Call Us
+                        </button>
+                        <button class="button button-outline">
+                            <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M22 6l-10 7L2 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Email Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Developer Sections -->
+            <div class="developer-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Developer - SMACK</h2>
+                    </div>
+                    <div class="card-content">
+                        <p class="stack">Names.....</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Developer TRICONA</h2>
+                    </div>
+                    <div class="card-content">
+                        <p class="stack">Names......</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer id="contact"  class="contact">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html">Community-Bridges</a>
+                            </div>
+                            <p>
+                                </p>
+                            <div class="footer-contact">
+                                <p>CommunityBridges.com</p>
+                                <p>+256 777777770</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h2>about CommunityBridges</h2>
+                            <ul>
+                                <li><a href="assets\Aboutus food-bridges.html">about us</a></li>
+                                <li><a href="#">career</a></li>
+                                <li><a href="#">terms <span> of service</span></a></li>
+                                <li><a href="#">privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-offset-1 col-md-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h2>news letter</h2>
+                            <div class="footer-newsletter">
+                                <p>
+                                    Subscribe to get latest news  update and informations that are coming soon........
+                                </p>
+                            </div>
+                            <div class="hm-foot-email">
+                                <div class="foot-email-box">
+                                    <input type="text" class="form-control" placeholder="Add Email">
+                                </div><!--/.foot-email-box-->
+                                <div class="foot-email-subscribe">
+                                    <span><i class="fa fa-arrow-right"></i></span>
+                                </div><!--/.foot-email-icon-->
+                            </div><!--/.hm-foot-email-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            &copy; copyright.designed and developed by <a href="https://www.themesine.com/">themesine& SMACK-TRICONA Team</a>.
+                        </p><!--/p-->
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>	
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fa fa-behance"></i></a>	
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.footer-copyright-->
+
+        <div id="scroll-Top">
+            <div class="return-to-top">
+                <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+            </div>
+            
+        </div><!--/.scroll-Top-->
+        
+    </footer><!--/.contact-->
+    <!--contact end-->
+</body>
+</html>

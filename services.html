@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Insecurity Services</title>
+    
+    <link rel="stylesheet" href="style-services.css">
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!--linear icon css-->
+    <link rel="stylesheet" href="assets/css/linearicons.css">
+
+    <!--flaticon.css-->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css" >	
+    
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   <style>
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4fff4; /* Light Green */
+    }
+
+    /* Navbar */
+    .navbar {
+        background-color: #2e7d32; /* Dark Green */
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+        align-items: center;
+    }
+
+     /* Circular Logo */
+     .logo img {
+        height: 60px; /* Adjust the size as needed */
+        width: 60px;  /* Ensure width and height are equal */
+        border-radius: 50%; /* Makes the image circular */
+        object-fit: cover; /* Ensures the image fills the circle */
+        border: 2px solid white; /* Optional: Adds a white border around the logo */
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+
+    .nav-links li {
+        margin: 0 15px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    .nav-links a:hover {
+        text-decoration: underline;
+    }
+
+    /* About Section */
+    .about {
+        text-align: center;
+        padding: 40px;
+        color: #2e7d32;
+    }
+
+   /* Uganda Map Section */
+   .map-section {
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .map-section h2 {
+        color: #2E8B57;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .map-container {
+        width: 180%;
+        max-width: 1000px;
+        height: 500px;
+        margin: auto;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+
+    #mapSearch {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        padding: 8px;
+        border: 2px solid #2e7d32;
+        border-radius: 5px;
+    }
+
+    /* Services Section */
+    .services {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .service-box {
+        background-color: white;
+        padding: 20px;
+        border: 2px solid #2e7d32;
+        border-radius: 8px;
+        width: 30%;
+        margin: 10px;
+    }
+
+    .service-box h2 {
+        color: #2e7d32;
+    }
+
+    .service-box img {
+        width: 100%;
+        height: 150px;
+        border-radius: 8px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    /* Contact Section */
+    .contact {
+        text-align: center;
+        padding: 30px;
+        background-color: #2e7d32;
+        color: white;
+    }
+
+    .contact i {
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    .contact a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .contact a:hover {
+        text-decoration: underline;
+    }
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+        margin: 0 10px;
+        color: white;
+    }
+
+    .social-icons a:hover {
+        color: #f4fff4;
+    }
+</style>
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="OIP.jpg" alt="Community Bridges"> 
+        </div>
+        <ul class="nav-links">
+            <div class="nav-links">
+                <a href="index-1.html" class="nav-link">Home</a>
+                <a href="Signinfood-bridges.html" class="nav-link">LOGIN</a>
+                <a href="Aboutus food-bridges.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link"> Our Services</a>
+                <a href="Contacts us food-bridges.html" class="nav-link">Contacts</a>
+            </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about">
+        <h1>Addressing Food Insecurity in Uganda</h1>
+        <p>Millions of people in Uganda face food insecurity daily. Our mission is to connect those in need with generous donors and resources. Use the map below to find support or contribute to the cause.</p>
+    </section>
+
+ <!-- Map Section -->
+ <section class="map-section">
+    <h2>Our Location - Uganda</h2>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1595127.9052033675!2d30.898437983693623!3d1.3733332867754738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1771a82e5d09cf1f%3A0x366ed4a4e94b5de6!2sUganda!5e0!3m2!1sen!2sus!4v1711033044518" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+</div>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service-box">
+            <img src="OIP (13).jpg" alt="Community Support">
+            <h2>Community Support</h2>
+            <p>Empowering local communities with food access and aid programs.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="OIP (6).jpg" alt="Nutrition Education">
+            <h2>Nutrition Education</h2>
+            <p>Teaching families about healthy diets and sustainable eating habits.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="OIP (10).jpg" alt="Food Sustainability">
+            <h2>Food Sustainability</h2>
+            <p>Promoting sustainable farming and food security initiatives.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="OIP (3).jpg" alt="Food Assistance">
+            <h2>Food Assistance Programs</h2>
+            <p>Providing direct food aid to those in urgent need.</p>
+        </div>
+    </section>
+    <section class="Donors">
+        <h3>Renown Donors</h3>
+        <div class="button-grid">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+            <button>Button 4</button>
+            <button>Button 5</button>  
+        </div>
+    </section>
+    <section class="Recipients">
+        <h3>Renown Recipients</h3>
+        <div class="button-grid">
+            <button>Button 1</button>
+            <button>Button 2</button>
+            <button>Button 3</button>
+            <button>Button 4</button>
+            <button>Button 5</button>  
+        </div>
+    </section>
+
+    <!-- Contact Section with Social Media Icons -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for more information or assistance.</p>
+        <p>
+            <i class="fas fa-phone"></i> <a href="tel:+256123456789">+256 123 456 789</a><br>
+            <i class="fas fa-envelope"></i> <a href="mailto:info@foodsecurity.org">info@foodsecurity.org</a>
+        </p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer id="contact"  class="contact">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html">Community-Bridges</a>
+                            </div>
+                            <p>
+                                </p>
+                            <div class="footer-contact">
+                                <p>CommunityBridges.com</p>
+                                <p>+256 777777770</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h2>about CommunityBridges</h2>
+                            <ul>
+                                <li><a href="assets\Aboutus food-bridges.html">about us</a></li>
+                                <li><a href="#">career</a></li>
+                                <li><a href="#">terms <span> of service</span></a></li>
+                                <li><a href="#">privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-offset-1 col-md-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h2>news letter</h2>
+                            <div class="footer-newsletter">
+                                <p>
+                                    Subscribe to get latest news  update and informations that are coming soon........
+                                </p>
+                            </div>
+                            <div class="hm-foot-email">
+                                <div class="foot-email-box">
+                                    <input type="text" class="form-control" placeholder="Add Email">
+                                </div><!--/.foot-email-box-->
+                                <div class="foot-email-subscribe">
+                                    <span><i class="fa fa-arrow-right"></i></span>
+                                </div><!--/.foot-email-icon-->
+                            </div><!--/.hm-foot-email-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            &copy; copyright.designed and developed by <a href="https://www.themesine.com/">themesine& SMACK-TRICONA Team</a>.
+                        </p><!--/p-->
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>	
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fa fa-behance"></i></a>	
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.footer-copyright-->
+
+</body>
+</html>

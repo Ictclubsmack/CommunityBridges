@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+  .nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+  
+  .nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.origins-mission {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.origin, .mission {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.food-insecurity {
+    margin-bottom: 20px;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tab {
+    padding: 15px;
+    background: #e9e9e9;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.tab:hover {
+    background: #d1d1d1;
+}
+
+.goals {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.goal, .food-waste {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.team {
+    text-align: center;
+}
+
+.team-member {
+    display: inline-block;
+    padding: 20px;
+    background: #e9e9e9;
+    border-radius: 5px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    background: #d1d1d1;
+}
