@@ -198,13 +198,13 @@
             // ------------------------------------------------------------------------------ //
             $("nav.navbar.bootsnav .attr-nav").each(function(){  
                 $("li.side-menu > a", this).on("click", function(e){
-                    e.preventDefault();
+                  //  e.preventDefault();
                     $("nav.navbar.bootsnav > .side").toggleClass("on");
                     $("body").toggleClass("on-side");
                 });
             });
             $(".side .close-side").on("click", function(e){
-                e.preventDefault();
+                //e.preventDefault();
                 $("nav.navbar.bootsnav > .side").removeClass("on");
                 $("body").removeClass("on-side");
             });  
@@ -463,7 +463,7 @@
                     });
                     
                     $("li.close-full-menu").on("click", function(e){
-                        e.preventDefault();
+                        //e.preventDefault();
                         $(getId).addClass(getOut);
                         setTimeout(function(){
                             $(getId).removeClass("in");
