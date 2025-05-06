@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+     
+    <link rel="stylesheet" href="styles-contacts us.css">
+     
+    <link rel="stylesheet" href="./footer.css">
+   
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Food Bridge</div>
+            <div class="nav-links">
+                <a href="index-1.html" class="nav-link">Home</a>
+                <a href="Signinfood-bridges.html" class="nav-link">LOGIN</a>
+                <a href="Aboutus food-bridges.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Our Services</a>
+                <a href="Contacts us food-bridges.html" class="nav-link">Contacts</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Tabs -->
+            <div class="tabs">
+                <div class="tabs-list">
+                    <button class="tab-trigger" data-tab="donor">Donor Contact</button>
+                    <button class="tab-trigger active" data-tab="recipient">Recipient Access</button>
+                    <button class="tab-trigger" data-tab="G-Commun">General Communication</button>
+                </div>
+
+                <!-- Donor Tab -->
+                <div class="tab-content" id="donor">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Contact Donor</h2>
+                        </div>
+                        <div class="card-content">
+                            <form class="form">
+                                <input type="text" placeholder="Name" class="input">
+                                <input type="email" placeholder="Email" class="input">
+                                <label>Reason for contact</label>
+                                <textarea id="reason-Dcontact" name="reason-Dcontact" rows="2" cols="25" maxlength="50"></textarea>
+                                <button type="submit" class="button">
+                                    Send Message
+                                    <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                        <path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipient Tab -->
+                <div class="tab-content active" id="recipient">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Get Access to Recipient</h2>
+                        </div>
+                        <div class="card-content">
+                            <form class="form">
+                                <label>Organisation of Interested</label>
+                                <input type="text" placeholder="Organization Name" class="input">
+                                <label>Known Personal</label>
+                                <input type="text" placeholder="Contact Person" class="input">
+                                <label>Interested Party's email</label>
+                                <input type="email" placeholder="Email" class="input">
+                                <label>Reason for contact</label>
+                                <textarea id="reason-Rcontact" name="reason-Rcontact" rows="2" cols="25" maxlength="50"></textarea>
+                                <button type="submit" class="button">
+                                    Request Access
+                                    <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                        <path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- General Communication Tab -->
+                <div class="tab-content" id="G-Commun">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>General Communication</h2>
+                        </div>
+                        <div class="card-content">
+                            <form class="form">
+                                <input type="text" placeholder="Name" class="input">
+                                <input type="email" placeholder="Email" class="input">
+                                <label for="message">Message</label>
+                                <textarea id="measssage-1" name="message-1" rows="4" cols="50" maxlength="120"></textarea>
+                                <button type="submit" class="button">
+                                    Send Message
+                                    <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                        <path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Program Contact -->
+            <div class="card program-contact">
+                <div class="card-header">
+                    <h2>Program Contact Us</h2>
+                </div>
+                <div class="card-content">
+                    <p>Pick where you can donate fully</p>
+                    <div class="button-group">
+                        <button class="button button-outline">
+                            <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Call Us
+                        </button>
+                        <button class="button button-outline">
+                            <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M22 6l-10 7L2 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Email Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Developer Sections -->
+            <div class="developer-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Developer - SMACK</h2>
+                    </div>
+                    <div class="card-content">
+                        <p class="stack">Names.....</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Developer TRICONA</h2>
+                    </div>
+                    <div class="card-content">
+                        <p class="stack">Names......</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Community Bridges</h3>
+                    <p>Connecting communities and resources to address food insecurity in Uganda.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Donate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p>Kampala, Uganda</p>
+                        <p>Email: info@communitybridges.org</p>
+                        <p>Phone: +256 123 456 789</p>
+                    </address>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates on our projects and impact.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Community Bridges. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Initialize active tab
+        const initialTrigger = document.querySelector('.tab-trigger.active');
+        document.querySelectorAll('.tab-content').forEach(tc => tc.classList.remove('active'));
+        if (initialTrigger) {
+            const tabId = initialTrigger.dataset.tab;
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        // Tab switching logic
+        document.querySelectorAll(".tab-trigger").forEach(btn => {
+            btn.addEventListener("click", () => {
+                document.querySelectorAll(".tab-trigger").forEach(b => b.classList.remove("active"));
+                document.querySelectorAll(".tab-content").forEach(tc => tc.classList.remove("active"));
+                btn.classList.add("active");
+                const tabId = btn.dataset.tab;
+                document.getElementById(tabId).classList.add("active");
+            });
+        });
+
+        // Update footer year
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    });
+    </script>
+</body>
+</html>
